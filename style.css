@@ -1,0 +1,151 @@
+html {
+    background: #ec0404;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    width: 1100px;
+    margin: 7.5% auto;
+    /*background: #c75bbd80;*/
+    background-image: url(Marketing-Digital.png);
+    opacity: 0.8;
+    background-size: 1200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px #000000;
+}
+
+.caixa-menu {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.logo {
+    position: relative;
+    top: 51.1px;
+    right: 0;
+    left: 12%;
+    text-decoration: none;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #f67373;
+    font-weight: bold;
+    margin: 0 0 0 2px;
+}
+
+.menu-geral {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+    margin: 30px 0 5em 0;
+}
+
+.menu-geral li {
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+.menu-inicial a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(255 255 255);
+}
+
+.menu-inicial a:hover {
+    border-radius: 30px;
+    color: #230202;
+}
+
+.caixa-main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.conteudo {
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.titulo-principal {
+    font-size: 100px;
+    color: #fa5e5e;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+.sub-titulo {
+    font-size: 50px;
+    color: #fa5e5e;
+    margin: 0 0 1em 0;
+    text-align: center;
+}
+
+.paragrafo-conteudo {
+    font-size: 16px;
+    padding: 0 0 1em 3px;
+    color: #ffffffb3;
+    text-align: center;
+}
+
+.botao-conteudo {
+    text-align: center;
+}
+
+.botao-sabermais {
+    background: #fa5e5e;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    margin: 0 0 5em 0;
+
+}
+
+.botao-sabermais:hover {
+    background: #230202;
+    color: #e2e2e2;
+}
+
+.botao-sabermais a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    color: #ff0000;
+    text-align: center;
+}
+
+.botao-sabermais a:hover {
+    color: #fa5e5e;
+}
+
+.imagem-conteudo {
+    float: right;
+}
+
+.imagem-conteudo img {
+    position: relative;
+    float: right;
+    width: 48%;
+    margin: 0 10px 0 0;
+    height: 100%;
+    top: -520px;
+    opacity: 0.8;
+}
+
+.icons-social {
+    font-size: 24px;
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+
+.icons-social a {
+    margin: 0 26px 0 0;
+    color: #fa5e5ef0;
+}
+
+.icons-social a:hover {
+    color: #230202;
+}
